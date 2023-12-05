@@ -1,0 +1,81 @@
+html{width: 1440px;
+    height: 3300px;}
+header{display: flex;
+    width: 1440px;
+    height: 72px;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;}
+.ul .ui1{color:#2E2F42;font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.32px;}
+.address{color: #434455;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.32px;}
+.h{text-align: center;
+   width: 1440px;
+   height: 600px;
+   flex-shrink: 0;
+   background-color: black;}
+h1{color: white;text-align: center;
+    font-family:Roboto; font-size: 56px; font-style: normal;
+    font-weight: 700;
+    line-height: 60px;
+    letter-spacing: 1.12px;}
+.b{color:white; background-color: #4D5AE5; font-family: Roboto; text-align: center;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.64px;}
+.ul1{display: flex;
+    width: 264px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;}
+.h2{color:#2E2F42;
+    font-family: Roboto;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.4px;}
+.h2p{color:#434455;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.32px;}
+.h4{color:#2E2F42;
+    font-family: Roboto;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.4px;}
+.h3{width: 1440px; height: 732px; flex-shrink: 0; background:#F4F4FD;}
+.h33{color:#2E2F42; font-family: Roboto; text-align: center;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 40px;
+    letter-spacing: 0.72px;
+    text-transform: capitalize;}  
+.ul2{width: 1440px; flex-shrink: 0;}
+.h4p{color:#434455;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.32px;}
+.portfolio{width: 1440px;
+    height: 3300px; background: #FFF;}
