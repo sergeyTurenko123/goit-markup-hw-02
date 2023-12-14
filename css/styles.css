@@ -4,7 +4,8 @@ body{font-family: Roboto;
   color: #2e2f42;
   width: 1440px;
   height: 3300px;}
-header{  display: flex;
+ul{list-style-type: none;}
+  header{  display: flex;
   width: 1440px;
   align-items: center;
   flex-shrink: 0;}
@@ -74,16 +75,23 @@ h3{text-align: center;
   text-transform: capitalize;
   padding-top: 120px;}
 .h3>div{padding-left: 156px;}
-.h3>div>div{display: inline-block; padding-right: 24px;  
-  margin-top: 72px; margin-bottom: 120px;}
-.h3>div>h4{padding-top: 32px;}
-.h3>div>p{padding-bottom: 32px;}
+.h3>div>div{ display: inline-block; margin-right: 24px;  
+  margin-top: 72px; margin-bottom: 120px; border-radius: 0px 0px 4px 4px;
+  background: #FFF;
+  box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16), 0px 1px 6px 0px rgba(46, 47, 66, 0.08);} 
+.h3>div>div>h4{margin-top: 32px; text-align: center;}
+.h3>div>div>p{margin-bottom: 32px; text-align: center;}
 .Portfolio{margin-left: 156px; margin-top: 120px;}
 .Portfolio1{padding-top: 72px; padding-bottom: 48px;}
 .Portfolio1>div{display: inline-block; padding-right: 24px;}
 .Portfolio2>div{display: inline-block; padding-right: 24px; margin-bottom: 120px;}
 .footer {width: 1440px;
-  height: 312px;
   flex-shrink: 0;
   color: #f4f4fd;
   background: #2e2f42;}
+.footer>div{padding: 100px 1020px 100px 156px;}
+.footer>div>p{font-size: 16px; width: 264px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.32px;}
