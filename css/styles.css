@@ -5,11 +5,11 @@ body{font-family: Roboto;
   width: 1440px;
   height: 3300px;}
 ul{list-style-type: none;}
-  header{  display: flex;
+header{display: flex; justify-content: space-around; align-items: center;
   width: 1440px;
+  height: 72px;
   align-items: center;
   flex-shrink: 0;}
-.logo{margin: 24px 76px 24px 156px;}
 .web{color: #4d5ae5;
   font-family: Raleway;
   font-size: 18px;
@@ -18,18 +18,15 @@ ul{list-style-type: none;}
   line-height: 21px;
   letter-spacing: 0.54px;
   text-transform: uppercase;}
-.ul1{font-size: 16px;
-  font-style: normal;
-  letter-spacing: 0.32px;
-  margin-top:24px; padding-right: 40px; margin-bottom:24px;}
+.ul1{font-size: 16px; font-style: normal; display: flex; column-gap: 40px;
+  letter-spacing: 0.32px;}
 .ul1:focus{color: #434455;}
 .address{color: #434455;
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
   line-height: 24px;
-  letter-spacing: 0.32px; margin-top:24px; margin-left: 292px; margin-bottom:24px;}
-.address1{padding-right: 40px;}
+  display: flex; column-gap: 40px;} 
 .h{text-align: center;
   width: 1440px;
   flex-shrink: 0;
@@ -41,7 +38,7 @@ h1{color: white;
   font-weight: 700;
   line-height: 60px;
   letter-spacing: 1.12px;
-  padding: 188px 472px 48px 472px;}
+  padding: 188px 472px 0 472px;}
 .b{color: white;
   background-color: #4d5ae5;
   text-align: center;
@@ -51,10 +48,9 @@ h1{color: white;
   line-height: 24px;
   letter-spacing: 0.64px;
   margin: 48px 635px 188px 636px;}
-.section{padding-left: 156px;}
-.section>div{width: 264px; display: inline-block; padding-right: 24px; 
-  margin-top: 120px; margin-bottom: 120px;}
-h2,h4{font-size: 20px;
+.section:not(:last-child){justify-content: center; display: flex; gap: 24px; margin-top: 120px; margin-bottom: 120px;}
+.section>div{width: 264px;}
+h2,h4{color:#434455; font-size: 20px;
   font-style: normal;
   font-weight: 500;
   line-height: 24px; justify-content: center;
@@ -74,17 +70,15 @@ h3{text-align: center;
   letter-spacing: 0.72px;
   text-transform: capitalize;
   padding-top: 120px;}
-.h3>div{padding-left: 156px;}
-.h3>div>div{ display: inline-block; margin-right: 24px;  
-  margin-top: 72px; margin-bottom: 120px; border-radius: 0px 0px 4px 4px;
-  background: #FFF;
+.h3>div{display: flex; justify-content: center; gap: 24px; padding-bottom: 120px; padding-top: 72px;}
+.h3>div>div{display: block; gap: 32px; text-align: center; padding-bottom: 32px;
+  border-radius: 0px 0px 4px 4px; background: #FFF;
   box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16), 0px 1px 6px 0px rgba(46, 47, 66, 0.08);} 
-.h3>div>div>h4{margin-top: 32px; text-align: center;}
-.h3>div>div>p{margin-bottom: 32px; text-align: center;}
 .Portfolio{margin-left: 156px; margin-top: 120px;}
-.Portfolio1{padding-top: 72px; padding-bottom: 48px;}
-.Portfolio1>div{display: inline-block; padding-right: 24px;}
-.Portfolio2>div{display: inline-block; padding-right: 24px; margin-bottom: 120px;}
+.Portfolio>div{display: flex; gap: 24px; margin-top: 72px; margin-bottom: 72px; flex-wrap: wrap; padding: 48px;}
+.Portfolio>div>div{border: 1px solid #E7E9FC; background: #FFF;}
+.Portfolio>div>div>h4{padding: 0px 16px;}
+.Portfolio>div>div>p{padding: 0px 16px;}
 .footer {width: 1440px;
   flex-shrink: 0;
   color: #f4f4fd;
