@@ -7,8 +7,7 @@ body{font-family: "Roboto", sans-serif; font-style: normal; letter-spacing: 0.32
 ul{list-style-type: none;}
 header{display: flex; justify-content: space-around; align-items: center; width: 1440px; height: 72px;}  
 .nav{display: flex; justify-content: space-around; align-items: center; column-gap: 76px; color:#2E2F42;}
-.nav div{display: flex; column-gap: 40px;}
-.text{font-family: "Raleway"; font-size: 18px; font-style: normal; font-weight: 700; line-height: 21px; 
+.text{font-family: "Raleway" sans-serif; font-size: 18px; font-weight: 700; line-height: 1.17; 
   letter-spacing: 0.54px; text-transform: uppercase; color: #4d5ae5;}
 .web{color: #2e2f42;}
 .nav:focus, .nav:hover{color: #434455;}
